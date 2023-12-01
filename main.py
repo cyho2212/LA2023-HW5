@@ -61,3 +61,4 @@ if __name__ == '__main__':
     ans = open('ans.txt', mode='w')
     line = str(N) + '\n' + str(test_loss)
     ans.write(line)
+    ans.close()
